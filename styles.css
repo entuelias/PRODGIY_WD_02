@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.stopwatch {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 80px 90px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+.buttons button {
+  margin: 5px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#startStop {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #fff;
+}
+#reset {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  color: #fff;
+}
+.buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
