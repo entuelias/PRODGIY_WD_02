@@ -25,9 +25,4 @@ A sleek and responsive **Stopwatch Web Application** built using **HTML, CSS, an
    ```sh
    git clone https://github.com/yourusername/stopwatch-app.git
 
-## 🚀 Live Demo  
-🔗 **[Try it out here!](https://entuelias.github.io/PRODGIY_WD_02/)**  
-
-## 🔗 Connect with Me  
-💼 **LinkedIn:** [Entisar Elias](https://www.linkedin.com/in/entisar-elias-q/)  
  
